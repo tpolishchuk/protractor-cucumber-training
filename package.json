@@ -1,0 +1,33 @@
+{
+  "name": "protractor-cucumber-training",
+  "version": "1.0.0",
+  "description": "Just a simple project after getting into Protractor-Cucumber framework and TypeScript basics",
+  "main": "index.js",
+  "scripts": {
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "pretest": "tsc",
+    "test": "protractor ./js_target/cucumber_conf.js"
+  },
+  "author": "https://github.com/tpolishchuk",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "4.2.11",
+    "@types/chai-as-promised": "7.1.2",
+    "@types/cucumber": "6.0.1",
+    "@types/jasmine": "3.5.10",
+    "@types/jasminewd2": "2.0.8",
+    "@types/node": "13.9.3",
+    "@types/properties-reader": "0.0.2",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "chai-match": "1.1.1",
+    "cucumber": "6.0.5",
+    "jasmine": "3.5.0",
+    "properties-reader": "1.0.0",
+    "protractor": "5.4.3",
+    "protractor-cucumber-framework": "6.2.1",
+    "ts-node": "8.8.1",
+    "typescript": "3.8.3"
+  }
+}
